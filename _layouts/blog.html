@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="main">
+  <div class="written-content">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+    <section id="contact">
+      <a name="contact-text"></a>
+      <h2>Contact</h2>
+      <h3>sarahjkidd@gmail.com</h3>
+      <div class="social">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/sarah-kidd-hubbard-506a0789?trk=hp-identity-name" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/skiddhubbard/skiddhubbard.github.io" target="blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+          <!-- <li><a href="mailto:sarahjkidd@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li> -->
+          <li><a href="https://twitter.com/skiddhubbard" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/skiddhubbard/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    </section>
+  </div>
+</div>
