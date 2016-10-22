@@ -3,7 +3,7 @@ layout: post
 title:  "August 1, 2016"
 date:   2016-08-01
 ---
-### 08.01.2016
+08.01.2016
 
 Ready, set, go! Today starts my personal challenge to learn Web Development for 90 days.
 

@@ -1,4 +1,9 @@
-### 08.02.2016
+---
+layout: post
+title:  "August 2, 2016"
+date:   2016-08-02
+---
+08.02.2016
 
 Day Two and back at it!
 
@@ -12,7 +17,7 @@ Today's work was mostly review - using div tags and nested elements. In addition
 + footer
 
 I also started the [Skillcrush Visual Designer Blueprint] (http://skillcrush.com/blueprint/visual-designer/).
-The course began with an overview of UX/UI and went on to teach the design process including defining project goals, 
+The course began with an overview of UX/UI and went on to teach the design process including defining project goals,
 creating content strucure, user personas and sitemaps. All interesting stuff!
 
 Here's my code for today:
