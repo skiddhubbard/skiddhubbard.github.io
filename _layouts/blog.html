@@ -2,21 +2,18 @@
 layout: default
 ---
 <div class="main">
-  <div class="written-content">
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+          <span class="post-meta">{{ post.date | date: "%m.%-d.%Y" }}</span>
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h2>
         </li>
       {% endfor %}
     </ul>
-    <section id="contact">
+    <section id="contact-blog">
       <a name="contact-text"></a>
-      <h2>Contact</h2>
       <h3>sarahjkidd@gmail.com</h3>
       <div class="social">
         <ul>
