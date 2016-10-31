@@ -241,6 +241,7 @@ a {
   float: left;
   clear: both;
   text-decoration: none;
+  padding-top: 2px;
 }
 
 .col-2 {
@@ -258,6 +259,7 @@ a {
 
 #contact .fa{
   text-decoration: none;
+  padding-top: 2px;
 }
 
 .social {
@@ -276,15 +278,26 @@ a {
   margin: 0px auto;
 }
 
+.social a {
+  text-decoration: none;
+}
+
 .social li {
   display: inline;
   padding: 5px 12px;
   float: left;
 }
-
-.social a {
+.arrow a {
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
+  padding-left: 5px;
 }
+
+// #contact a {
+//   font-family: 'Raleway', sans-serif;
+//   text-decoration: none;
+//   padding-left: 5px;
+// }
 
 /***Blog Styles***/
 
