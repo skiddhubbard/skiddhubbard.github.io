@@ -5,7 +5,7 @@ date:   2016-10-24
 ---
 I'm back! And you're actually reading this on the real life internet right now!
 Seems amazing to me - I've been doing so much work on this site locally and finally
-have it up and running! I have to give a huge thanks to my husband for the help making
+have it up and running! I have to give a huge thanks to my husband for helping me make
 it happen. So, the past week has been a lot of the behind the scenes work and now
 I'm back to Skillcrush and wrapping up the Unplugged Site this week!
 
