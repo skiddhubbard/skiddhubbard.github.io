@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Doc to Dev: Unplugged Site - About Page"
-date:   2016-10-24
+date:   2016-10-26
 ---
 Two more pages to go!! The about page gave me the opportunity to review iframes,
 feels like forever ago that I first learned about them. I also learned how to make
