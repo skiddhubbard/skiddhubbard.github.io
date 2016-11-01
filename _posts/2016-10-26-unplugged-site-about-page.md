@@ -10,7 +10,7 @@ I actually read about that when I was making my personal site but couldn't quite
 figure it out so it's good to know it does work and I can do it!
 
 Here's the page:
-![Unplugged Site About Page](/assets/img/101616.png)
+![Unplugged Site About Page](/assets/img/102616.png)
 
 The HTML:
 {% highlight html %}
