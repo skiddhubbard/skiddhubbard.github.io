@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Doc to Dev: Flexbox Fun Part 2"
-date:   2016-11-07
+date:   2016-11-08
 ---
 Today things got a little more challenging with Flexbox. The lesson started with
 arranging some generic divs on a page:
