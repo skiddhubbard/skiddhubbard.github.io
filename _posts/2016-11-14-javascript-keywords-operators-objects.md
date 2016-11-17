@@ -20,7 +20,7 @@ using properties to define them. I also learned that a property can be a functio
 and in that case, they are called a method. This section also taught another
 Keyword - this. Then I used all of these tools to make a chair:
 
-![Chair](/asset/img/111416-2.png)
+![Chair](/assets/img/111416-2.png)
 
 And then I took some deep breaths and told myself this is allllll gonna sink
 in over time, right?
