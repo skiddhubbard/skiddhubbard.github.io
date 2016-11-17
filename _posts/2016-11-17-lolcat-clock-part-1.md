@@ -5,8 +5,7 @@ date:   2016-11-17
 ---
 ![LOL Cat Clock 1](/assets/img/111716.png)
 
-Yep, that's what I made today... a LOL Cat Clock. While it may be a little silly,
-I was totally excited to write some JavaScript that actually did something on a
+Yep, that's what I made today... a LOL Cat Clock. The text and cat image change based on the time on the clock. While it may be a little silly, I was totally excited to write some JavaScript that actually did something on a
 page! Let's hear it for the DOM!!
 
 So, to make this clock, I started with the time JavaScript I had written [a few days ago](/2016/11/14/javascript-keywords-operators-objects.html). I added the HTML and CSS provided by the lesson to my JS Bin and then got to work. I learned how to getElementById(), assign it to a variable and make my message appear by appending innerText. After the messages were all appearing correctly,
