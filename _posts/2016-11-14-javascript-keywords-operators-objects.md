@@ -17,7 +17,7 @@ day.
 
 Then I went on to learn about objects - how to create them in JavaScript and
 using properties to define them. I also learned that a property can be a function
-and in that case, they are called a method. This section also taught another
+and in that case, it is called a method. This section also taught another
 Keyword - this. Then I used all of these tools to make a chair:
 
 ![Chair](/assets/img/111416-2.png)
