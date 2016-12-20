@@ -296,6 +296,10 @@ li {
 
   @media (min-width: 768px) {
 
+    h1 {
+      font-size: 1.2em;
+    }
+
     h2 {
       font-size: 1em;
     }
@@ -390,8 +394,12 @@ li {
 
 /***Contact***/
 
+  .fa {
+    font-size: 1.5em;
+  }
+
   .social ul {
-    width: 129px;
+    width: 102px;
   }
 }
 
@@ -525,6 +533,32 @@ li {
 
 /***Work Page***/
 
+.main-work p {
+  text-align: center;
+}
+
+.title-work {
+  width: 80%;
+  border: solid 4px #e6b4ac;
+  margin: 10px auto;
+}
+
+.title-work h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto 0px;
+}
+
+.title-work h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto 10px;
+}
+
+.work-description {
+  width: 80%;
+}
+
 .work-description p {
   font-size: 1em;
 }
@@ -545,9 +579,14 @@ li {
 
   @media (min-width: 768px) {
 
-    .site-description p {
+    .main-detail p {
       font-size: 1em;
     }
+
+    .main-work p {
+      font-size: 1em;
+    }
+
   }
 
   @media (min-width: 1024px) {
@@ -568,6 +607,10 @@ li {
 
     .main-detail p {
       font-size: 1em;
+    }
+
+    .work-description {
+      width: 100%;
     }
 
     .larger {
