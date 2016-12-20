@@ -523,6 +523,26 @@ li {
    text-decoration: underline;
  }
 
+/***Work Page***/
+
+.work-description p {
+  font-size: 1em;
+}
+
+.work-description a {
+  text-decoration: underline;
+}
+
+ .more-button {
+   width: 150px;
+   border: solid 4px #e6b4ac;
+   margin: 3% auto;
+ }
+
+ .more-button h1 {
+   text-align: center;
+ }
+
   @media (min-width: 768px) {
 
     .site-description p {
