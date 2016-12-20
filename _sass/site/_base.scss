@@ -267,7 +267,7 @@ li {
  .contact-text h1 {
    width: 60%;
    text-align: center;
-   margin: 10% auto 2px;
+   margin: 5% auto 2px;
  }
 
  .contact-text h2 {
@@ -296,7 +296,11 @@ li {
    margin: 0px 10px 0px 0px;
  }
 
+/***Footer***/
 
+ .footer {
+   clear: both;
+ }
 
   @media (min-width: 768px) {
 
@@ -404,7 +408,7 @@ li {
 }
 
 
-  @media (min-width: 1024px) {
+  @media (min-width: 950px) {
 
     h1 {
       font-size: 1.2em;
@@ -589,7 +593,7 @@ li {
 
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 950px) {
 
     .col-1 {
       width: 35%;
