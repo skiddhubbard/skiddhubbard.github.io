@@ -448,22 +448,22 @@ input {
 
  /***About***/
 
-    #about-image {
-      object-fit: cover;
-      position: absolute;
-    }
-
-    .about-text {
-      width: 30%;
-      font-size: 1em;
-      position: absolute;
-      left: 67%;
-      z-index: 100;
-    }
-
-    .about-text h3 {
-      text-align: left;
-    }
+    // #about-image {
+    //   object-fit: cover;
+    //   position: absolute;
+    // }
+    //
+    // .about-text {
+    //   width: 30%;
+    //   font-size: 1em;
+    //   position: absolute;
+    //   left: 67%;
+    //   z-index: 100;
+    // }
+    //
+    // .about-text h3 {
+    //   text-align: left;
+    // }
 
 /***Contact***/
 
@@ -578,7 +578,26 @@ input {
     }
   }
 
+/***About Page***/
 
+.wrapper-about {
+  width: 100%;
+  overflow: auto;
+  background-color: #FBF5F4;
+  margin-top: 5%;
+  padding: 10% 0px 15%;
+}
+
+.main-about {
+  width: 70%;
+  margin: auto;
+}
+
+.sarah {
+  width: 100%;
+  object-fit: scale-down;
+  margin-top: 10%;
+}
 
 
  /***Detail Pages***/
@@ -701,6 +720,38 @@ input {
 
     .main-work p {
       font-size: 1em;
+    }
+
+    .wrapper-about {
+      padding: 2% 0px;
+    }
+
+    .main-about {
+      width: 80%;
+    }
+
+    .main-about p {
+      font-size: 1em;
+    }
+
+    .main-about .col-1 {
+      width: 40%;
+      margin: 7% 0px 7% 5%;
+      padding-right: 5%;
+      float: left;
+      border: none;
+    }
+
+    .main-about .col-2 {
+      width: 40%;
+      margin: 7% 5% 7% 5%;
+      float: left;
+    }
+
+    .sarah {
+      width: 100%;
+      object-fit: scale-down;
+      margin-top: 0px;
     }
 
   }
