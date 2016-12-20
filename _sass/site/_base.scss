@@ -257,11 +257,76 @@ li {
   text-align: center;
 }
 
+
 /***Contact***/
 
 #contact-link {
+  clear: both;
+}
+
+#contact-header {
+  width: 60%;
+  text-align: center;
+  margin: 25px auto;
+}
+
+form {
+  width: 70%;
+  padding-right: 7px;
+  margin: auto;
+}
+
+input {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #999999;
+  line-height: 3em;
+  padding: 0px 0px 0px 5px;
+  border: 1px solid #cfcfcf;
+  margin: 10px 0px;
+}
+
+#name {
+  width: 100%;
+}
+
+#email {
+  width: 100%;
+}
+
+#message {
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #999999;
+  line-height: 3em;
+  padding: 0px 0px 0px 5px;
+  border-color: #cfcfcf;
+  margin: 10px 0px;
+}
+
+#submit {
+  width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 0px;
+  border: solid 4px #e6b4ac;
+  background-color: white;
+}
+
+#button {
+  width: 150px;
+  margin: auto;
+}
+
+#contact-link {
   overflow: auto;
-  margin: 0px;
+  margin: 5% 0px;
 }
 
  .contact-text h1 {
@@ -277,7 +342,7 @@ li {
  }
 
  .social ul {
-   width: 80px;
+   width: 62px;
    float: none;
    margin: 0px auto 10%;
    padding: 0px;
@@ -399,6 +464,17 @@ li {
     .about-text h3 {
       text-align: left;
     }
+
+/***Contact***/
+
+    .social ul {
+      width: 80px;
+    }
+
+    // #contact-header {
+    //   text-align: left;
+    //   margin: 7% 0px 5% 7%;
+    // }
   }
 
 
@@ -477,7 +553,33 @@ li {
     .work {
       margin-top: 15%;
     }
+
+/***Contact***/
+
+    #name {
+    width: 47%;
+    float: left;
+    margin: 15px 0px;
+    }
+
+    #email {
+    width: 47%;
+    margin: 15px -7px 15px 0px;
+    float: right;
+    }
+
+    #message {
+    clear: both;
+    margin: 15px 0px 25px;
+    }
+
+    .social ul {
+      margin-top: -90px;
+    }
   }
+
+
+
 
  /***Detail Pages***/
 
@@ -662,10 +764,6 @@ li {
 
     .title {
       margin-top: 0px;
-    }
-
-    .social ul {
-      margin-top: -70px;
     }
  }
 
