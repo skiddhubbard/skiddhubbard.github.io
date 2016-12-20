@@ -486,7 +486,7 @@ li {
 
  .title {
    border: solid 4px #e6b4ac;
-   margin-bottom: 10px;
+   margin: 3% 0px 5%;
  }
 
  .title h1 {
@@ -543,9 +543,8 @@ li {
 }
 
 .title-work {
-  width: 80%;
   border: solid 4px #e6b4ac;
-  margin: 10px auto;
+  margin: 3% 0px 5%;
 }
 
 .title-work h1 {
@@ -590,7 +589,7 @@ li {
 
   }
 
-  @media (min-width: 920px) {
+  @media (min-width: 1024px) {
 
     .col-1 {
       width: 35%;
@@ -612,6 +611,30 @@ li {
 
     .work-description {
       width: 100%;
+    }
+
+    .more-button h1 {
+      font-size: 1em;
+    }
+
+    .site-button h1 {
+      font-size: 1em;
+    }
+
+    .title h1 {
+      font-size: 1em;
+    }
+
+    .title h2 {
+      font-size: 0.8em;
+    }
+
+    .title-work h1 {
+      font-size: 1em;
+    }
+
+    .title-work h2 {
+      font-size: 0.8em;
     }
 
     .larger {
