@@ -277,11 +277,15 @@ li {
  }
 
  .social ul {
-   width: 96px;
+   width: 77px;
    float: none;
    margin: 0px auto 10%;
    padding: 0px;
    overflow: auto;
+ }
+
+ .fa-2x {
+   font-size: 1.5em;
  }
 
  .fa-github-alt {
@@ -393,10 +397,6 @@ li {
     }
 
 /***Contact***/
-
-  .fa {
-    font-size: 1.5em;
-  }
 
   .social ul {
     width: 102px;
@@ -533,6 +533,11 @@ li {
 
 /***Work Page***/
 
+.main-work {
+  width: 90%;
+  margin: auto;
+}
+
 .main-work p {
   text-align: center;
 }
@@ -553,10 +558,6 @@ li {
   width: 100%;
   text-align: center;
   margin: 0px auto 10px;
-}
-
-.work-description {
-  width: 80%;
 }
 
 .work-description p {
@@ -589,7 +590,7 @@ li {
 
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 920px) {
 
     .col-1 {
       width: 35%;
