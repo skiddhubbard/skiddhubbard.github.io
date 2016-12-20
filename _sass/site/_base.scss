@@ -277,7 +277,7 @@ li {
  }
 
  .social ul {
-   width: 86px;
+   width: 98px;
    float: none;
    margin: 0px auto 10%;
    padding: 0px;
@@ -313,7 +313,7 @@ li {
     }
 
     p {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
  /***Header***/
@@ -405,7 +405,11 @@ li {
   @media (min-width: 950px) {
 
     h1 {
-      font-size: 1.2em;
+      font-size: 1em;
+    }
+
+    h2 {
+      font-size: 0.8em;
     }
 
  /***Header***/
@@ -540,6 +544,16 @@ li {
   text-align: center;
 }
 
+.main-work .col-1 {
+  border: none;
+  clear: left;
+}
+
+.section-work {
+  overflow: auto;
+  border-bottom: solid 1px #333333;
+}
+
 .title-work {
   border: solid 4px #e6b4ac;
   margin: 3% 0px 5%;
@@ -644,7 +658,7 @@ li {
     }
 
     .social ul {
-      margin-top: -60px;
+      margin-top: -70px;
     }
  }
 
