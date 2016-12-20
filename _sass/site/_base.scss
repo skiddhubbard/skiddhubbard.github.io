@@ -551,7 +551,9 @@ li {
 
 .section-work {
   overflow: auto;
+  padding-bottom: 5%;
   border-bottom: solid 1px #333333;
+  margin-bottom: 5%;
 }
 
 .title-work {
@@ -647,6 +649,11 @@ li {
 
     .title-work h2 {
       font-size: 0.8em;
+    }
+
+    .section-work {
+      padding-bottom: 2%;
+      margin-bottom: 2%;
     }
 
     .larger {
