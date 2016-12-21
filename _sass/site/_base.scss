@@ -673,6 +673,8 @@ input {
    width: 150px;
    border: solid 4px #e6b4ac;
    margin: 3% auto 10%;
+   text-align: center;
+   padding: 10px;
  }
 
  .site-button h1 {
@@ -735,6 +737,8 @@ input {
    width: 150px;
    border: solid 4px #e6b4ac;
    margin: 3% auto;
+   text-align: center;
+   padding: 10px;
  }
 
  .more-button h1 {
@@ -834,11 +838,11 @@ input {
       width: 100%;
     }
 
-    .more-button h1 {
+    .more-button {
       font-size: 1em;
     }
 
-    .site-button h1 {
+    .site-button {
       font-size: 1em;
     }
 
