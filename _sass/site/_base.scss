@@ -730,9 +730,25 @@ input {
       font-size: 1em;
     }
 
+    .title-work h1 {
+      font-size: 1em;
+    }
+
+    .title-work h2 {
+      font-size: 0.8em;
+    }
+
     .section-work {
-      padding-bottom: 5%;
-      margin-bottom: 5%;
+      padding-bottom: 2%;
+      margin-bottom: 2%;
+    }
+
+    .work-description {
+      width: 100%;
+    }
+
+    .more-button {
+      font-size: 1em;
     }
 
     .more-button:hover {
@@ -749,20 +765,54 @@ input {
     //   font-size: 1em;
     // }
 
+    .col-1 {
+      width: 35%;
+      margin: 7% 0px 7% 8%;
+      padding-right: 7%;
+      float: left;
+      border-right: solid 1px #333333;
+    }
+
+    .col-2 {
+      width: 35%;
+      margin: 7% 8% 7% 6%;
+      float: left;
+    }
+
+    .title {
+      margin-top: 0px;
+    }
+
+    .title h1 {
+      font-size: 1em;
+    }
+
+    .title h2 {
+      font-size: 0.8em;
+    }
+
+    .larger {
+      margin-top: 0px;
+    }
+
+    .site-button {
+      font-size: 1em;
+    }
+
 
 /***About Page***/
 
-    // .main-about p {
-    //   font-size: 1em;
-    // }
-    //
-    // .main-about h1 {
-    //   font-size: 1em;
-    // }
-    //
-    // .main-about h2 {
-    //   font-size: 0.8em;
-    // }
+    .main-about p {
+      font-size: 1em;
+    }
+
+    .main-about h1 {
+      font-size: 1em;
+    }
+
+    .main-about h2 {
+      font-size: 0.8em;
+    }
 
 
 /***Contact***/
@@ -795,68 +845,6 @@ input {
       margin-top: -90px;
     }
   }
-
-  @media (min-width: 950px) {
-
-    .col-1 {
-      width: 35%;
-      margin: 7% 0px 7% 8%;
-      padding-right: 7%;
-      float: left;
-      border-right: solid 1px #333333;
-    }
-
-    .col-2 {
-      width: 35%;
-      margin: 7% 8% 7% 6%;
-      float: left;
-    }
-
-
-
-
-
-    .work-description {
-      width: 100%;
-    }
-
-    .more-button {
-      font-size: 1em;
-    }
-
-    .site-button {
-      font-size: 1em;
-    }
-
-    .title h1 {
-      font-size: 1em;
-    }
-
-    .title h2 {
-      font-size: 0.8em;
-    }
-
-    .title-work h1 {
-      font-size: 1em;
-    }
-
-    .title-work h2 {
-      font-size: 0.8em;
-    }
-
-    .section-work {
-      padding-bottom: 2%;
-      margin-bottom: 2%;
-    }
-
-    .larger {
-      margin-top: 0px;
-    }
-
-    .title {
-      margin-top: 0px;
-    }
- }
 
 
 /* ==========================================================================
