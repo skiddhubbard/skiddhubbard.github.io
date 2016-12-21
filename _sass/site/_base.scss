@@ -493,10 +493,6 @@ input {
  margin: 0px 20px 0px 0px;
 }
 
-// .fa-twitter {
-//  margin: 0px 20px 0px 0px;
-// }
-
 .fa-instagram {
   margin: 0px 0px 0px 20px;
 }
@@ -759,10 +755,16 @@ input {
 
     .more-button:hover {
       background-color: #e6b4ac;
+      -moz-transition: all .3s;
+      -webkit-transition: all .3s;
+      transition: all .3s;
     }
 
     .site-button:hover {
       background-color: #e6b4ac;
+      -moz-transition: all .3s;
+      -webkit-transition: all .3s;
+      transition: all .3s;
     }
 
 /***Detail Page***/
@@ -848,7 +850,10 @@ input {
     }
 
     #submit:hover {
-      background-color: #e6b4ac;
+    background-color: #e6b4ac;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
     }
 
     .social ul {
