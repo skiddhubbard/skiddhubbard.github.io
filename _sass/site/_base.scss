@@ -94,6 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/***MOBILE STYLES***/
+
 
 body {
  margin: 0px;
@@ -146,16 +148,16 @@ a {
  z-index: 999;
 }*/
 
-nav {
- overflow: auto;
-}
-
 #logo {
   width: 60px;
   height: auto;
   float: left;
   padding: 10px 15px;
   object-fit: scale-down;
+}
+
+nav {
+ overflow: auto;
 }
 
 ul {
@@ -208,7 +210,7 @@ li {
   margin: auto;
 }
 
-/***Work***/
+/***Work Page***/
 
 .work {
  overflow: auto;
@@ -241,7 +243,136 @@ li {
   margin: 7% auto 10%;
 }
 
-/***About***/
+.main-work {
+  width: 90%;
+  margin: auto;
+}
+
+.main-work p {
+  text-align: center;
+}
+
+.main-work .col-1 {
+  border: none;
+  clear: left;
+}
+
+.section-work {
+  overflow: auto;
+  padding-bottom: 10%;
+  border-bottom: solid 1px #333333;
+  margin-bottom: 10%;
+}
+
+.title-work {
+  border: solid 4px #e6b4ac;
+  margin: 3% 0px 10%;
+}
+
+.title-work h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto 0px;
+}
+
+.title-work h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto 10px;
+}
+
+// .work-description p {
+//   font-size: 1em;
+// }
+
+.work-description a {
+  text-decoration: underline;
+}
+
+.more-button {
+   width: 150px;
+   border: solid 4px #e6b4ac;
+   margin: 10% auto 3%;
+   text-align: center;
+   padding: 10px;
+}
+
+/***Detail Page***/
+
+.main-detail {
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  border: solid 4px #e6b4ac;
+  margin: 3% 0px 5%;
+}
+
+.title h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto 0px;
+}
+
+.title h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto 10px;
+}
+
+.larger {
+  width: 100%;
+  object-fit: cover;
+  margin: 3% 0px;
+}
+
+.main-detail p {
+  text-align: center;
+}
+
+.responsive {
+  width: 100%;
+  object-fit: scale-down;
+  margin: 3% 0px;
+}
+
+.site-button {
+  width: 150px;
+  border: solid 4px #e6b4ac;
+  margin: 3% auto 10%;
+  text-align: center;
+  padding: 10px;
+}
+
+.site-description a {
+  text-decoration: underline;
+}
+
+/***About Page***/
+
+.wrapper-about {
+  width: 100%;
+  overflow: auto;
+  background-color: #FBF5F4;
+  margin-top: 5%;
+  padding: 10% 0px 15%;
+}
+
+.main-about {
+  width: 70%;
+  margin: auto;
+}
+
+.main-about a {
+  text-decoration: underline;
+}
+
+.sarah {
+  width: 100%;
+  object-fit: scale-down;
+  margin-top: 10%;
+}
 
 #about-image {
   width: 100%;
@@ -257,7 +388,6 @@ li {
 .about-text h1 {
   text-align: center;
 }
-
 
 /***Contact***/
 
@@ -338,43 +468,46 @@ input {
   margin: 5% 0px;
 }
 
- .contact-text h1 {
-   width: 60%;
-   text-align: center;
-   margin: 5% auto 2px;
- }
+.contact-text h1 {
+ width: 60%;
+ text-align: center;
+ margin: 5% auto 2px;
+}
 
- .contact-text h2 {
-   width: 60%;
-   text-align: center;
-   margin: 0px auto 5px;
- }
+.contact-text h2 {
+ width: 60%;
+ text-align: center;
+ margin: 0px auto 5px;
+}
 
- .social ul {
-   width: 62px;
-   float: none;
-   margin: 0px auto 10%;
-   padding: 0px;
-   overflow: auto;
- }
+.social ul {
+ width: 62px;
+ float: none;
+ margin: 0px auto 10%;
+ padding: 0px;
+ overflow: auto;
+}
 
- .fa-fw {
-   width: 1em;
- }
+.fa-fw {
+ width: 1em;
+}
 
- .fa-github-alt {
-   margin: 0px 10px 0px 0px;
- }
+.fa-github-alt {
+ margin: 0px 10px 0px 0px;
+}
 
- .fa-twitter {
-   margin: 0px 10px 0px 0px;
- }
+.fa-twitter {
+ margin: 0px 10px 0px 0px;
+}
 
 /***Footer***/
 
- .footer {
-   clear: both;
- }
+.footer {
+ clear: both;
+}
+
+/***TABLET STYLES***/
+
 
   @media (min-width: 768px) {
 
@@ -435,12 +568,12 @@ input {
       padding: 15px 0px 30px;
     }
 
- /***Work***/
+ /***Work Page***/
 
-     #work-header {
-       text-align: left;
-       margin: 7% 0px 5% 7%;
-     }
+    #work-header {
+      text-align: left;
+      margin: 7% 0px 5% 7%;
+    }
 
     .work-image {
       width: 40%;
@@ -456,37 +589,61 @@ input {
       margin: 0px 7% 7% 3%;
     }
 
- /***About***/
+/***Detail Page***/
 
-    // #about-image {
-    //   object-fit: cover;
-    //   position: absolute;
-    // }
-    //
-    // .about-text {
-    //   width: 30%;
-    //   font-size: 1em;
-    //   position: absolute;
-    //   left: 67%;
-    //   z-index: 100;
-    // }
-    //
-    // .about-text h3 {
-    //   text-align: left;
-    // }
+    .main-detail p {
+      font-size: 1em;
+    }
+
+/***About Page***/
+    .wrapper-about {
+      padding: 2% 0px;
+    }
+
+    .main-about {
+      width: 80%;
+    }
+
+    .main-about p {
+      font-size: 0.8em;
+    }
+
+    .main-about h1 {
+      font-size: 1em;
+    }
+
+    .main-about h2 {
+      font-size: 0.8em;
+    }
+
+    .main-about .col-1 {
+      width: 40%;
+      margin: 7% 0px 7% 5%;
+      padding-right: 5%;
+      float: left;
+      border: none;
+    }
+
+    .main-about .col-2 {
+      width: 40%;
+      margin: 7% 5% 7% 5%;
+      float: left;
+    }
+
+    .sarah {
+      width: 100%;
+      object-fit: scale-down;
+      margin-top: 0px;
+    }
 
 /***Contact***/
 
     .social ul {
       width: 80px;
     }
-
-    // #contact-header {
-    //   text-align: left;
-    //   margin: 7% 0px 5% 7%;
-    // }
   }
 
+/***DESKTOP STYLES***/
 
   @media (min-width: 950px) {
 
@@ -498,16 +655,8 @@ input {
       font-size: 0.8em;
     }
 
-    .more-button:hover {
-      background-color: #e6b4ac;
-    }
-
-    .site-button:hover {
-      background-color: #e6b4ac;
-    }
-
-    #submit:hover {
-      background-color: #e6b4ac;
+    p {
+      font-size: 1em;
     }
 
  /***Header***/
@@ -571,11 +720,50 @@ input {
       padding: 10px 0px;
     }
 
- /***Work***/
+ /***Work Page***/
 
     .work {
       margin-top: 15%;
     }
+
+    .main-work p {
+      font-size: 1em;
+    }
+
+    .section-work {
+      padding-bottom: 5%;
+      margin-bottom: 5%;
+    }
+
+    .more-button:hover {
+      background-color: #e6b4ac;
+    }
+
+    .site-button:hover {
+      background-color: #e6b4ac;
+    }
+
+/***Detail Page***/
+
+    // .main-detail p {
+    //   font-size: 1em;
+    // }
+
+
+/***About Page***/
+
+    // .main-about p {
+    //   font-size: 1em;
+    // }
+    //
+    // .main-about h1 {
+    //   font-size: 1em;
+    // }
+    //
+    // .main-about h2 {
+    //   font-size: 0.8em;
+    // }
+
 
 /***Contact***/
 
@@ -599,201 +787,13 @@ input {
     margin: 15px 0px 25px;
     }
 
+    #submit:hover {
+      background-color: #e6b4ac;
+    }
+
     .social ul {
       margin-top: -90px;
     }
-  }
-
-/***About Page***/
-
-.wrapper-about {
-  width: 100%;
-  overflow: auto;
-  background-color: #FBF5F4;
-  margin-top: 5%;
-  padding: 10% 0px 15%;
-}
-
-.main-about {
-  width: 70%;
-  margin: auto;
-}
-
-.main-about a {
-  text-decoration: underline;
-}
-
-.sarah {
-  width: 100%;
-  object-fit: scale-down;
-  margin-top: 10%;
-}
-
-
- /***Detail Pages***/
-
- .main-detail {
-   width: 90%;
-   margin: auto;
- }
-
- .title {
-   border: solid 4px #e6b4ac;
-   margin: 3% 0px 5%;
- }
-
- .title h1 {
-   width: 100%;
-   text-align: center;
-   margin: 10px auto 0px;
- }
-
- .title h2 {
-   width: 100%;
-   text-align: center;
-   margin: 0px auto 10px;
- }
-
- .larger {
-   width: 100%;
-   object-fit: cover;
-   margin: 3% 0px;
- }
-
- .main-detail p {
-   text-align: center;
- }
-
- .responsive {
-   width: 100%;
-   object-fit: scale-down;
-   margin: 3% 0px;
- }
-
- .site-button {
-   width: 150px;
-   border: solid 4px #e6b4ac;
-   margin: 3% auto 10%;
-   text-align: center;
-   padding: 10px;
- }
-
- .site-description a {
-   text-decoration: underline;
- }
-
-/***Work Page***/
-
-.main-work {
-  width: 90%;
-  margin: auto;
-}
-
-.main-work p {
-  text-align: center;
-}
-
-.main-work .col-1 {
-  border: none;
-  clear: left;
-}
-
-.section-work {
-  overflow: auto;
-  padding-bottom: 10%;
-  border-bottom: solid 1px #333333;
-  margin-bottom: 10%;
-}
-
-.title-work {
-  border: solid 4px #e6b4ac;
-  margin: 3% 0px 10%;
-}
-
-.title-work h1 {
-  width: 100%;
-  text-align: center;
-  margin: 10px auto 0px;
-}
-
-.title-work h2 {
-  width: 100%;
-  text-align: center;
-  margin: 0px auto 10px;
-}
-
-.work-description p {
-  font-size: 1em;
-}
-
-.work-description a {
-  text-decoration: underline;
-}
-
-.more-button {
-   width: 150px;
-   border: solid 4px #e6b4ac;
-   margin: 10% auto 3%;
-   text-align: center;
-   padding: 10px;
-}
-
-
-  @media (min-width: 768px) {
-
-    .main-detail p {
-      font-size: 1em;
-    }
-
-    .main-work p {
-      font-size: 1em;
-    }
-
-    .section-work {
-      padding-bottom: 5%;
-      margin-bottom: 5%;
-    }
-
-    .wrapper-about {
-      padding: 2% 0px;
-    }
-
-    .main-about {
-      width: 80%;
-    }
-
-    .main-about p {
-      font-size: 0.8em;
-    }
-
-    .main-about h1 {
-      font-size: 1em;
-    }
-
-    .main-about h2 {
-      font-size: 0.8em;
-    }
-
-    .main-about .col-1 {
-      width: 40%;
-      margin: 7% 0px 7% 5%;
-      padding-right: 5%;
-      float: left;
-      border: none;
-    }
-
-    .main-about .col-2 {
-      width: 40%;
-      margin: 7% 5% 7% 5%;
-      float: left;
-    }
-
-    .sarah {
-      width: 100%;
-      object-fit: scale-down;
-      margin-top: 0px;
-    }
-
   }
 
   @media (min-width: 950px) {
@@ -812,21 +812,9 @@ input {
       float: left;
     }
 
-    .main-detail p {
-      font-size: 1em;
-    }
 
-    .main-about p {
-      font-size: 1em;
-    }
 
-    .main-about h1 {
-      font-size: 1em;
-    }
 
-    .main-about h2 {
-      font-size: 0.8em;
-    }
 
     .work-description {
       width: 100%;
