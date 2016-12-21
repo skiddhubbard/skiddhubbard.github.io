@@ -276,6 +276,11 @@ form {
   margin: auto;
 }
 
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
 input {
   font-family: 'Playfair Display', serif;
   font-style: italic;
