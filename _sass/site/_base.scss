@@ -677,10 +677,6 @@ input {
    padding: 10px;
  }
 
- // .site-button h1 {
- //   text-align: center;
- // }
-
  .site-description a {
    text-decoration: underline;
  }
@@ -733,17 +729,14 @@ input {
   text-decoration: underline;
 }
 
- .more-button {
+.more-button h1 {
    width: 150px;
    border: solid 4px #e6b4ac;
    margin: 3% auto 10%;
    text-align: center;
    padding: 10px;
- }
+}
 
- // .more-button h1 {
- //   text-align: center;
- // }
 
   @media (min-width: 768px) {
 
