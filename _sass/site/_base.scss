@@ -283,6 +283,7 @@ input, textarea {
 
 input {
   font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
   font-style: italic;
   color: #999999;
   line-height: 3em;
@@ -302,6 +303,7 @@ input {
 #message {
   width: 100%;
   font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
   font-style: italic;
   color: #999999;
   line-height: 3em;
@@ -563,18 +565,21 @@ input {
 
     #name {
     width: 47%;
+    font-size: 1em;
     float: left;
     margin: 15px 0px;
     }
 
     #email {
     width: 47%;
+    font-size: 1em;
     margin: 15px -7px 15px 0px;
     float: right;
     }
 
     #message {
     clear: both;
+    font-size: 1em;
     margin: 15px 0px 25px;
     }
 
