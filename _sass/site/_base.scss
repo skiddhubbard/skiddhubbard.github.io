@@ -481,15 +481,11 @@ input {
 }
 
 .social ul {
- width: 62px;
+ width: 96px;
  float: none;
  margin: 0px auto 10%;
  padding: 0px;
  overflow: auto;
-}
-
-.fa-fw {
- width: 1em;
 }
 
 .fa-github-alt {
@@ -847,6 +843,7 @@ input {
     }
 
     .social ul {
+      width: 129px;
       margin-top: -90px;
     }
   }
