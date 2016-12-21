@@ -710,6 +710,53 @@ input {
       width: 200px;
     }
 
+    .work-image {
+      position: relative;
+    }
+
+
+    .work-image:after {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      background: rgba(0,0,0,.8);
+      -moz-transition: all .5s;
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+
+    .work-image:hover:after {
+      opacity: 1;
+    }
+
+    .hover-text {
+      display: none;
+      width: 100%;
+      position: absolute;
+      top: 45%;
+      margin: auto;
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 36px;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+    }
+
+
+    .work-image:hover span{
+      display: block;
+      z-index: 99;
+      -moz-transition: all .4s;
+      -webkit-transition: all .4s;
+      transition: all .4s;
+    }
+
  /***Hero Image***/
 
     #computer-image {
