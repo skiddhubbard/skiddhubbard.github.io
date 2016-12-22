@@ -745,53 +745,6 @@ input {
       width: 200px;
     }
 
-    .work-image {
-      position: relative;
-    }
-
-
-    .work-image:after {
-      content: "";
-      display: block;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      background: rgba(0,0,0,.8);
-      -moz-transition: all .3s;
-      -webkit-transition: all .3s;
-      transition: all .3s;
-      top: 0;
-      left: 0;
-      position: absolute;
-    }
-
-    .work-image:hover:after {
-      opacity: 1;
-    }
-
-    .hover-text {
-      display: none;
-      width: 100%;
-      position: absolute;
-      top: 45%;
-      margin: auto;
-      font-family: 'Montserrat';
-      font-weight: 400;
-      font-size: 36px;
-      text-transform: uppercase;
-      color: white;
-      text-align: center;
-    }
-
-
-    .work-image:hover span{
-      display: block;
-      z-index: 99;
-      -moz-transition: all .3s;
-      -webkit-transition: all .3s;
-      transition: all .3s;
-    }
-
  /***Hero Image***/
 
     #computer-image {
@@ -833,20 +786,6 @@ input {
 
     .more-button {
       font-size: 1em;
-    }
-
-    .more-button:hover {
-      background-color: #e6b4ac;
-      -moz-transition: all .3s;
-      -webkit-transition: all .3s;
-      transition: all .3s;
-    }
-
-    .site-button:hover {
-      background-color: #e6b4ac;
-      -moz-transition: all .3s;
-      -webkit-transition: all .3s;
-      transition: all .3s;
     }
 
 /***Detail Page***/
@@ -931,6 +870,29 @@ input {
     margin: 15px 0px 25px;
     }
 
+    .social ul {
+      margin-top: -90px;
+    }
+  }
+
+  /***HOVER***/
+
+  @media (min-width: 1025px) {
+
+    .more-button:hover {
+      background-color: #e6b4ac;
+      -moz-transition: all .3s;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+    }
+
+    .site-button:hover {
+      background-color: #e6b4ac;
+      -moz-transition: all .3s;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+    }
+
     #submit:hover {
     background-color: #e6b4ac;
     -moz-transition: all .3s;
@@ -938,11 +900,51 @@ input {
     transition: all .3s;
     }
 
-    .social ul {
-      margin-top: -90px;
+    .work-image {
+      position: relative;
+    }
+
+    .work-image:after {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      background: rgba(0,0,0,.8);
+      -moz-transition: all .3s;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+
+    .work-image:hover:after {
+      opacity: 1;
+    }
+
+    .hover-text {
+      display: none;
+      width: 100%;
+      position: absolute;
+      top: 45%;
+      margin: auto;
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 36px;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+    }
+
+    .work-image:hover span{
+      display: block;
+      z-index: 99;
+      -moz-transition: all .3s;
+      -webkit-transition: all .3s;
+      transition: all .3s;
     }
   }
-
 
 /* ==========================================================================
    Helper classes
