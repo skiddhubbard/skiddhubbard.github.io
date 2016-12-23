@@ -928,7 +928,7 @@ input {
     .hover-text {
       display: none;
       width: 100%;
-      position: relative;
+      position: absolute;
       // position: absolute;
       // top: 45%;
       margin: auto;
@@ -941,7 +941,8 @@ input {
     }
 
     .work-image:hover span{
-      display: block;
+      display: flex;
+      align-items: center;
       opacity: 1;
       -moz-transition: all .3s;
       -webkit-transition: all .3s;
