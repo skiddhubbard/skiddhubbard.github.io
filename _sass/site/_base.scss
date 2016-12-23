@@ -906,7 +906,8 @@ input {
 
     .work-image:after {
       content: "";
-      display: block;
+      display: flex;
+      align-items: center;
       height: 100%;
       width: 100%;
       opacity: 0;
@@ -926,8 +927,8 @@ input {
     .hover-text {
       display: none;
       width: 100%;
-      position: absolute;
-      top: 45%;
+      // position: absolute;
+      // top: 45%;
       margin: auto;
       font-family: 'Montserrat';
       font-weight: 400;
