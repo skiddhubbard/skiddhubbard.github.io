@@ -805,9 +805,9 @@ input {
     nav li a:hover {
       padding-bottom: 5px;
       border-bottom: solid 4px #e6b4ac;
-      -moz-transition: width ease .2s;
-      -webkit-transition: width ease .2s;
-      transition: width ease .2s;
+      -moz-transition: width .3s ease;
+      -webkit-transition: width .3s ease;
+      transition: width .3s ease;
     }
 
     .social li a:hover {
