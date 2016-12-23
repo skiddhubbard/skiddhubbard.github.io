@@ -563,6 +563,7 @@ input {
     }*/
 
     #logo {
+      display: block;
       width: 115px;
       padding: 15px 15px 15px 75px;
       object-fit: scale-down;
@@ -574,6 +575,7 @@ input {
 
     ul {
       width: 450px;
+      padding-left: 0px;
       // padding-right: 75px;
       // padding-top: 52px;
     }
