@@ -708,6 +708,14 @@ input {
       max-width: none;
     }
 
+    nav ul {
+      padding-top: 60px;
+    }
+
+    nav li {
+      font-size: 20px;
+    }
+
     // .nav-home {
     //   display: block;
     //   width: 200px;
@@ -757,7 +765,7 @@ input {
  /***Work Page***/
 
     .work {
-      margin-top: 15%;
+      margin-top: 7%;
     }
 
     .main-work p {
@@ -868,7 +876,7 @@ input {
     }
 
     .social ul {
-      margin-top: -20px;
+      margin-top: -30px;
     }
   }
 
