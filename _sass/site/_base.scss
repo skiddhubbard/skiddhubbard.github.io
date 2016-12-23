@@ -945,7 +945,7 @@ input {
     .work-image:hover h1{
       // display: flex;
       // align-items: center;
-      display: flex;
+      display: inline-block;
       z-index: 99;
       -moz-transition: all .3s;
       -webkit-transition: all .3s;
