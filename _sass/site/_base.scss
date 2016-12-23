@@ -926,8 +926,9 @@ input {
     }
 
     .hover-text {
-      display: block;
+      display: none;
       width: 100%;
+      position: relative;
       // position: absolute;
       // top: 45%;
       margin: auto;
