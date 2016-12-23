@@ -155,7 +155,8 @@ header {
  right: 0;
  left: 0;
  z-index: 999;
- box-shadow: 1px 1px 15px 0.5px rgba(51,51,51,0.8);
+ opacity: 0.9;
+ // box-shadow: 1px 1px 15px 0.5px rgba(51,51,51,0.8);
 }
 
 #logo {
@@ -567,28 +568,32 @@ input {
       object-fit: scale-down;
     }
 
+    #logo-mobile {
+      display: none;
+    }
+
     ul {
       width: 450px;
-      padding-right: 75px;
-      padding-top: 52px;
+      // padding-right: 75px;
+      // padding-top: 52px;
     }
 
     li {
       font-size: 20px;
     }
 
-    .nav-about {
-      width: 150px;
-      margin: 0px;
-    }
-
-    .nav-contact {
-      width: 150px;
-    }
-
-    .nav-work {
-      width: 150px;
-    }
+    // .nav-about {
+    //   width: 150px;
+    //   margin: 0px;
+    // }
+    //
+    // .nav-contact {
+    //   width: 150px;
+    // }
+    //
+    // .nav-work {
+    //   width: 150px;
+    // }
 
  /***Hero Image***/
 
