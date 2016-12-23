@@ -140,11 +140,6 @@ nav li {
 
 /***Header***/
 
-nav li {
-  padding-bottom: 5px;
-  border-bottom: 4px solid #e6b4ac;
-
-
 header {
  background-color: white;
  height: 80px;
@@ -806,6 +801,13 @@ input {
   /***HOVER***/
 
   @media (min-width: 1025px) {
+
+    li:hover {
+      color: #e6b4ac;
+      -moz-transition: all .2s;
+      -webkit-transition: all .2s;
+      transition: all .2s;
+    }
 
     .more-button:hover {
       background-color: #e6b4ac;
