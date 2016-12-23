@@ -558,15 +558,16 @@ input {
 
  /***Header***/
 
-    /*header {
-      height: 132px;
-    }*/
+    header {
+      height: 106px;
+    }
 
     #logo {
       display: block;
-      width: 115px;
-      padding: 15px 15px 15px 75px;
+      width: 150px;
+      padding: 30px 0px;
       object-fit: scale-down;
+      float: left;
     }
 
     #logo-mobile {
@@ -574,8 +575,8 @@ input {
     }
 
     ul {
-      width: 450px;
-      padding-left: 0px;
+      width: 350px;
+      padding: 50px 0px 0px 0px;
       // padding-right: 75px;
       // padding-top: 52px;
     }
@@ -599,9 +600,9 @@ input {
 
  /***Hero Image***/
 
-    /*#computer-image {
-      padding-top: 132px;
-    }*/
+    #computer-image {
+      padding-top: 106px;
+    }
 
     #tagline {
       padding: 15px 0px 30px;
