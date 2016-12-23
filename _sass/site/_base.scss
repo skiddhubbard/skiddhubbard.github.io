@@ -902,15 +902,11 @@ input {
 
     .work-image {
       position: relative;
-      display: flex;
-      align-content: center;
     }
 
     .work-image:after {
       content: "";
-      // display: block;
-      // display: flex;
-      // align-items: center;
+      display: block;
       height: 100%;
       width: 100%;
       opacity: 0;
@@ -931,8 +927,7 @@ input {
       display: none;
       width: 100%;
       position: absolute;
-      // position: absolute;
-      // top: 45%;
+      top: 45%;
       margin: auto;
       font-family: 'Montserrat';
       font-weight: 400;
@@ -943,9 +938,7 @@ input {
     }
 
     .work-image:hover h1{
-      // display: flex;
-      // align-items: center;
-      display: inline-block;
+      display: block;
       z-index: 99;
       -moz-transition: all .3s;
       -webkit-transition: all .3s;
