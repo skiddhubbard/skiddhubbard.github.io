@@ -691,16 +691,21 @@ input {
  /***Header***/
 
     header {
-      height: 170px;
+      height: 150px;
     }
 
     #logo {
-      width: 250px;
+      width: 300px;
       // position: absolute;
       // left: 50%;
       // margin-left: -75px;
       // padding-top: 30px;
       // object-fit: scale-down;
+    }
+
+    nav {
+      width: 80%;
+      max-width: none;
     }
 
     // .nav-home {
@@ -741,8 +746,7 @@ input {
  /***Hero Image***/
 
     #computer-image {
-      padding: 5% 0px;
-      /*padding-top: 200px;*/
+      padding: 152px 0px 5% 0px;
     }
 
     #tagline {
