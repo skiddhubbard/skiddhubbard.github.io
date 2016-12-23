@@ -902,13 +902,15 @@ input {
 
     .work-image {
       position: relative;
+      display: flex;
+      align-items: center;
     }
 
     .work-image:after {
       content: "";
       // display: block;
-      display: flex;
-      align-items: center;
+      // display: flex;
+      // align-items: center;
       height: 100%;
       width: 100%;
       opacity: 0;
