@@ -878,8 +878,8 @@ input {
       display: none;
       width: 100%;
       position: absolute;
-      top: 47%;
-      margin: auto;
+      top: 50%;
+      transform: translateY(-50%);
       font-family: 'Montserrat';
       font-weight: 400;
       font-size: 36px;
