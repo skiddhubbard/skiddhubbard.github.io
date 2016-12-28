@@ -759,12 +759,23 @@ input {
     }
 
     .main-about h1 {
-      font-size: 1em;
+      font-size: 1.2em;
     }
 
     .main-about h2 {
-      font-size: 0.8em;
+      font-size: 1em;
     }
+
+    .wrapper-about {
+      padding: 0px 0px 2% 0px;
+    }
+
+    .main-about {
+      margin-top: 157px;
+      width: 80%;
+    }
+
+
 
 
 /***Contact***/
