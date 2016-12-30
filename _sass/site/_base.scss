@@ -241,6 +241,7 @@ nav li {
 .main-work {
   width: 90%;
   margin: auto;
+  padding-top: 120px;
 }
 
 .main-work p {
@@ -555,6 +556,10 @@ input {
 
  /***Work Page***/
 
+    .main-work {
+      padding-top: 108px;
+    }
+
     #work-header {
       text-align: left;
       margin: 7% 0px 5% 7%;
@@ -691,6 +696,10 @@ input {
 
     .work {
       margin-top: 7%;
+    }
+
+    .main-work {
+      padding-top: 157px;
     }
 
     .main-work p {
