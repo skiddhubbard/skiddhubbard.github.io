@@ -347,13 +347,13 @@ nav li {
   width: 100%;
   overflow: auto;
   background-color: #FBF5F4;
-  margin-top: 5%;
-  padding: 10% 0px 15%;
+  // margin-top: 5%;
+  // padding: 10% 0px 15%;
 }
 
 .main-about {
   width: 70%;
-  margin: auto;
+  margin: 120px auto 40px;
 }
 
 .main-about a {
@@ -582,11 +582,14 @@ input {
 
 /***About Page***/
     .wrapper-about {
-      padding: 2% 0px;
+      padding: 0px 0px 2% 0px;
     }
 
     .main-about {
       width: 80%;
+      margin-top: 17%;
+      margin-bottom: 3%;
+      overflow: auto;
     }
 
     .main-about p {
@@ -772,6 +775,7 @@ input {
 
     .main-about {
       margin-top: 157px;
+      margin-bottom: 0px;
       width: 80%;
     }
 
