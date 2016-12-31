@@ -658,6 +658,10 @@ input {
 
     header {
       height: 157px;
+      -webkit-transition: height 0.3s;
+      -moz-transition: height 0.3s;
+      -ms-transition: height 0.3s;
+      transition: height 0.3s;
     }
 
     #logo {
@@ -677,6 +681,18 @@ input {
 
     nav li {
       font-size: 20px;
+      -webkit-transition: height 0.3s;
+      -moz-transition: height 0.3s;
+      -ms-transition: height 0.3s;
+      transition: height 0.3s;
+    }
+
+    header.smaller {
+      height: 80px;
+    }
+
+    nav li.smaller {
+      font-size: 14px;
     }
 
  /***Hero Image***/
