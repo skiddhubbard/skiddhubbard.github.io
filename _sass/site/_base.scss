@@ -659,8 +659,8 @@ input {
     header {
       height: 157px;
       -webkit-transition: height 500ms;
-      -moz-transition: height 0.3s;
-      -ms-transition: height 0.3s;
+      -moz-transition: height 500ms;
+      -ms-transition: height 500ms;
       transition: height 500ms;
     }
 
@@ -677,14 +677,13 @@ input {
     nav ul {
       width: 325px;
       padding-top: 60px;
-      transition: height 500ms;
     }
 
     nav li {
       font-size: 20px;
-      -webkit-transition: height 0.5s;
-      -moz-transition: height 0.5s;
-      -ms-transition: height 0.5s;
+      -webkit-transition: height 500ms;
+      -moz-transition: height 500ms;
+      -ms-transition: height 500ms;
       transition: height 500ms;
     }
 
