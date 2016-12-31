@@ -542,6 +542,35 @@ input {
       font-size: 20px;
     }
 
+    header.smaller {
+      height: 80px;
+    }
+
+    #logo.smaller {
+      display: none;
+      -webkit-transition: ease 2s;
+      -moz-transition: ease 2s;
+      -ms-transition: ease 2s;
+      transition: ease 2s;
+    }
+
+    #logo-mobile.smaller {
+      display: block;
+      object-fit: scale-down;
+      -webkit-transition: ease 2s;
+      -moz-transition: ease 2s;
+      -ms-transition: ease 2s;
+      transition: ease 2s;
+    }
+
+    nav li.smaller {
+      font-size: 18px;
+    }
+
+    nav ul.smaller {
+      padding-top: 30px;
+    }
+
  /***Hero Image***/
 
     #computer-image {
@@ -658,19 +687,19 @@ input {
 
     header {
       height: 157px;
-      -webkit-transition: height 500ms;
-      -moz-transition: height 500ms;
-      -ms-transition: height 500ms;
-      transition: height 500ms;
+      // -webkit-transition: height 500ms;
+      // -moz-transition: height 500ms;
+      // -ms-transition: height 500ms;
+      // transition: height 500ms;
     }
 
     #logo {
       width: 250px;
       padding: 40px 0px;
-      -webkit-transition: height 2s;
-      -moz-transition: height 2s;
-      -ms-transition: height 2s;
-      transition: height 2s;
+      // -webkit-transition: height 2s;
+      // -moz-transition: height 2s;
+      // -ms-transition: height 2s;
+      // transition: height 2s;
     }
 
     nav {
@@ -681,48 +710,21 @@ input {
     nav ul {
       width: 325px;
       padding-top: 60px;
-      -webkit-transition: height 500ms;
-      -moz-transition: height 500ms;
-      -ms-transition: height 500ms;
-      transition: height 500ms;
+      // -webkit-transition: height 500ms;
+      // -moz-transition: height 500ms;
+      // -ms-transition: height 500ms;
+      // transition: height 500ms;
     }
 
     nav li {
       font-size: 20px;
-      -webkit-transition: height 2s;
-      -moz-transition: height 2s;
-      -ms-transition: height 2s;
-      transition: height 2s;
+      // -webkit-transition: height 2s;
+      // -moz-transition: height 2s;
+      // -ms-transition: height 2s;
+      // transition: height 2s;
     }
 
-    header.smaller {
-      height: 80px;
-    }
 
-    #logo.smaller {
-      display: none;
-      -webkit-transition: ease 2s;
-      -moz-transition: ease 2s;
-      -ms-transition: ease 2s;
-      transition: ease 2s;
-    }
-
-    #logo-mobile.smaller {
-      display: block;
-      object-fit: scale-down;
-      -webkit-transition: ease 2s;
-      -moz-transition: ease 2s;
-      -ms-transition: ease 2s;
-      transition: ease 2s;
-    }
-
-    nav li.smaller {
-      font-size: 18px;
-    }
-
-    nav ul.smaller {
-      padding-top: 30px;
-    }
 
  /***Hero Image***/
 
