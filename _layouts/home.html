@@ -27,15 +27,15 @@ layout: default
 <!-- <script src="/assets/js/main.js"></script> -->
 <script>
 $(window).on("scroll touchmove", function () {
-  $('header').toggleClass('smaller', $(document).scrollTop() > 80);
+  $('header, nav li, nav ul, #logo').toggleClass('smaller', $(document).scrollTop() > 80);
 });
-$(window).on("scroll touchmove", function () {
-  $('nav li').toggleClass('smaller', $(document).scrollTop () > 80);
-});
-$(window).on("scroll touchmove", function () {
-  $('nav ul').toggleClass('smaller', $(document).scrollTop () > 80);
-});
-$(window).on("scroll touchmove", function () {
-  $('#logo').toggleClass('smaller', $(document).scrollTop () > 80);
-});
+// $(window).on("scroll touchmove", function () {
+//   $('nav li').toggleClass('smaller', $(document).scrollTop () > 80);
+// });
+// $(window).on("scroll touchmove", function () {
+//   $('nav ul').toggleClass('smaller', $(document).scrollTop () > 80);
+// });
+// $(window).on("scroll touchmove", function () {
+//   $('#logo').toggleClass('smaller', $(document).scrollTop () > 80);
+// });
 </script>
