@@ -667,6 +667,10 @@ input {
     #logo {
       width: 250px;
       padding: 40px 0px;
+      -webkit-transition: height 500ms;
+      -moz-transition: height 500ms;
+      -ms-transition: height 500ms;
+      transition: height 500ms;
     }
 
     nav {
@@ -677,6 +681,10 @@ input {
     nav ul {
       width: 325px;
       padding-top: 60px;
+      -webkit-transition: height 500ms;
+      -moz-transition: height 500ms;
+      -ms-transition: height 500ms;
+      transition: height 500ms;
     }
 
     nav li {
@@ -689,6 +697,11 @@ input {
 
     header.smaller {
       height: 80px;
+    }
+
+    #logo.smaller {
+      width: 180px;
+      padding: 15px 0px;
     }
 
     nav li.smaller {
