@@ -661,7 +661,7 @@ input {
       -webkit-transition: height 0.3s;
       -moz-transition: height 0.3s;
       -ms-transition: height 0.3s;
-      transition: height 0.3s;
+      transition: height 500ms;
     }
 
     #logo {
@@ -677,6 +677,7 @@ input {
     nav ul {
       width: 325px;
       padding-top: 60px;
+      transition: height 500ms;
     }
 
     nav li {
