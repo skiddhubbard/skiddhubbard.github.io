@@ -689,10 +689,10 @@ input {
 
     nav li {
       font-size: 20px;
-      -webkit-transition: height 500ms;
-      -moz-transition: height 500ms;
-      -ms-transition: height 500ms;
-      transition: height 500ms;
+      -webkit-transition: height 1s;
+      -moz-transition: height 1s;
+      -ms-transition: height 1s;
+      transition: height 1s;
     }
 
     header.smaller {
@@ -700,8 +700,21 @@ input {
     }
 
     #logo.smaller {
-      width: 180px;
-      padding: 15px 0px;
+      // width: 180px;
+      // padding: 15px 0px;
+      display: none;
+      -webkit-transition: ease 1s;
+      -moz-transition: ease 1s;
+      -ms-transition: ease 1s;
+      transition: ease 1s;
+    }
+
+    #logo-mobile.smaller {
+      display: block;
+      -webkit-transition: ease 1s;
+      -moz-transition: ease 1s;
+      -ms-transition: ease 1s;
+      transition: ease 1s;
     }
 
     nav li.smaller {
