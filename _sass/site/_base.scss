@@ -681,10 +681,6 @@ input {
 
     nav li {
       font-size: 20px;
-      -webkit-transition: height 0.3s;
-      -moz-transition: height 0.3s;
-      -ms-transition: height 0.3s;
-      transition: height 0.3s;
     }
 
     header.smaller {
@@ -693,6 +689,10 @@ input {
 
     nav li.smaller {
       font-size: 18px;
+      -webkit-transition: height 0.3s;
+      -moz-transition: height 0.3s;
+      -ms-transition: height 0.3s;
+      transition: height 0.3s;
     }
 
     nav ul.smaller {
