@@ -563,14 +563,6 @@ input {
       transition: ease 2s;
     }
 
-    nav li.smaller {
-      font-size: 18px;
-    }
-
-    nav ul.smaller {
-      padding-top: 30px;
-    }
-
  /***Hero Image***/
 
     #computer-image {
@@ -724,7 +716,13 @@ input {
       // transition: height 2s;
     }
 
+    nav li.smaller {
+      font-size: 18px;
+    }
 
+    nav ul.smaller {
+      padding-top: 30px;
+    }
 
  /***Hero Image***/
 
