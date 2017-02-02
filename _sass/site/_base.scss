@@ -657,6 +657,24 @@ footer {
   }
 }
 
+@media only screen and (device-width : 768px) {
+
+  .frontpage {
+    background-image: url(../assets/img/sarah-photo-mobile.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  body {
+      height:100%;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+  }
+}
+
 /***DESKTOP STYLES***/
 
 @media (min-width: 1000px) {
