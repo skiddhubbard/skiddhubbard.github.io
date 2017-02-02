@@ -347,7 +347,7 @@ header h3 {
 
 #contact {
   clear: both;
-  padding-bottom: 85px;
+  padding-bottom: 75px;
 }
 
 .contact-text h1 {
@@ -649,12 +649,6 @@ input {
     width: 90%;
   }
 
-  /***Contact***/
-
-  #contact {
-    padding-bottom: 75px;
-  }
-
   /***Footer**/
 
   .social li {
@@ -748,6 +742,7 @@ input {
 
   .services {
     max-width: 1200px;
+    padding-bottom: 0px;
     width: 80%;
   }
 
@@ -765,6 +760,7 @@ input {
   #contact {
     margin: auto;
     max-width: 1200px;
+    padding-bottom: 85px;
   }
 
   #contact-header {
