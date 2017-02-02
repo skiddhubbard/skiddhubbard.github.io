@@ -480,10 +480,12 @@ footer {
 
   .overlay-content {
     top: 20%;
+  }
 
   .overlay .closebtn {
     top: 40px;
     right: 55px;
+  }
 
   /***About***/
 
@@ -697,6 +699,7 @@ footer {
   .overlay-content {
     top: 50%;
     transform: translateY(-50%);
+  }
 
   /***About***/
 
@@ -1025,4 +1028,3 @@ footer {
         page-break-after: avoid;
     }
   }
-}
