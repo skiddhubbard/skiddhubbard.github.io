@@ -210,7 +210,8 @@ header h3 {
 
 .overlay .closebtn {
   color: white;
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: bold;
   position: absolute;
   right: 45px;
   top: 20px;
@@ -477,6 +478,9 @@ footer {
   .front-text {
     top: 50%;
   }
+
+  .overlay .closebtn {
+    top: 40px;
 
   /***About***/
 
