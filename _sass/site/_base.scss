@@ -348,7 +348,7 @@ header h3 {
 
 #contact {
   clear: both;
-  padding-bottom: 25px;
+  padding-bottom: 85px;
 }
 
 .contact-text h1 {
@@ -427,19 +427,24 @@ input {
 }
 
 #button {
-  margin: auto;
-  padding-left: 6px;
-  width: 155px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 /***Footer***/
 
 .social ul {
+  left: 50%;
   padding: 0px;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 .social li {
+  float: left;
   list-style-type: none;
+  padding: 0px 10px;
 }
 
 /***LANDSCAPE STYLES***/
