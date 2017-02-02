@@ -413,7 +413,7 @@ input {
 
 #submit {
   background-color: white;
-  border: solid 4px #E94C82;
+  border: solid 4px #e0004d;
   color: #333333;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
@@ -785,7 +785,7 @@ input {
   @media (min-width: 1025px) {
 
     a:hover {
-      color: #E94C82;
+      color: #e0004d;
     }
 
     nav li a:hover {
@@ -794,7 +794,7 @@ input {
     }
 
     .social li a:hover {
-      color: #E94C82;
+      color: #e0004d;
       -moz-transition: all .3s;
       -webkit-transition: all .3s;
       transition: all .3s;
@@ -802,7 +802,7 @@ input {
 
     #submit:hover {
       color: white;
-      background-color: #E94C82;
+      background-color: #e0004d;
       -moz-transition: all .3s;
       -webkit-transition: all .3s;
       transition: all .3s;
