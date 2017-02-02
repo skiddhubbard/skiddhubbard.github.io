@@ -763,25 +763,8 @@ input {
 
   @media (min-width: 1025px) {
 
-    .nav {
-    	display: inline-block;
-    	position: relative;
-    	padding-bottom: 5px;
-    }
-
-    .nav:after {
-    	content: '';
-    	display: block;
-    	margin: auto;
-    	height: 4px;
-    	width: 0px;
-    	background: transparent;
-    	transition: width .5s ease, background-color .5s ease;
-    }
-
-    .nav:hover:after {
-    	width: 100%;
-    	background: #e6b4ac;
+    .nav a:hover {
+      opacity: 0.8;
     }
 
     .social li a:hover {
