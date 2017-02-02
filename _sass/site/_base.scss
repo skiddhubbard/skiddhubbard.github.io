@@ -478,6 +478,9 @@ footer {
     top: 50%;
   }
 
+  .overlay-content {
+    top: 20%;
+
   .overlay .closebtn {
     top: 40px;
     right: 55px;
@@ -597,6 +600,9 @@ footer {
     display: none;
   }
 
+  .overlay-content {
+    top: 30%;
+
   .overlay-content a {
     color: white;
     font-size: 2.5em;
@@ -686,6 +692,9 @@ footer {
   .frontpage {
     max-width: none;
   }
+
+  .overlay-content {
+    top: 50%;
 
   /***About***/
 
@@ -1013,5 +1022,5 @@ footer {
     h3 {
         page-break-after: avoid;
     }
-}
+  }
 }
