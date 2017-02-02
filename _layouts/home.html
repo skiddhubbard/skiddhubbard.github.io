@@ -12,6 +12,14 @@ layout: default
         <li><a href="#contact" onclick="closeNav()">contact</a></li>
       </ul>
     </nav>
+  <header>
+    <div class="name">
+      <h3>sarah kidd hubbard<br><span>creative developer</span></h3>
+    </div>
+    <div class="menu">
+      <h3 style="cursor:pointer;" onclick="openNav()"><span>menu </span><i class="fa fa-bars" aria-hidden="true" id="bars"></i></h3>
+    </div>
+  </header>
   </div>
   <div class="front-text">
     <h1>i <i class="fa fa-heart" aria-hidden="true" id="heart"></i> code.</h1>
@@ -89,3 +97,12 @@ layout: default
     <div id="button"><input id="submit" type="submit" value="let's create!"></div>
   </form>
 </section>
+
+<script>
+function openNav() {
+    document.getElementById("nav").style.height = "100%";
+}
+function closeNav() {
+    document.getElementById("nav").style.height = "0%";
+}
+</script>
