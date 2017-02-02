@@ -1,23 +1,108 @@
 ---
 layout: default
 ---
-<section>
-  <img id="computer-image" src="/assets/img/computer-image.jpg" alt="computer-image"/>
-  <p id="tagline">I bring beautiful designs to life with code.</p>
-</section>
-<section>
-  <div class="work">
-    <h1 id="work-header">Recent Work</h1>
-    <a href="http://sarahkiddhubbard.com/roast.html">
-      <div class="work-image" id="work-1">
-        <h1 class="hover-text">Roast<br>Coffee</h1>
-      </div>
-    </a>
-    <a href="http://sarahkiddhubbard.com/unplugged.html">
-      <div class="work-image" id="work-2">
-        <h1 class="hover-text">Unplugged</h1>
-      </div>
-    </a>
+<section class="frontpage">
+  <header>
+    <div class="name">
+      <h3>sarah kidd hubbard<br><span>creative developer</span></h3>
+    </div>
+    <div class="menu">
+      <h3 style="cursor:pointer;" onclick="openNav()"><span>menu </span><i class="fa fa-bars" aria-hidden="true" id="bars"></i></h3>
+    </div>
+  </header>
+  <div id="nav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <nav class="overlay-content">
+      <ul>
+        <li><a href="#about" onclick="closeNav()">about</a></li>
+        <li><a href="#work" onclick="closeNav()">projects</a></li>
+        <li><a href="#services" onclick="closeNav()">services</a></li>
+        <li><a href="#contact" onclick="closeNav()">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="front-text">
+    <h1>i <i class="fa fa-heart" aria-hidden="true" id="heart"></i> code.</h1>
   </div>
 </section>
-<script type="text/javascript" src="/assets/js/main.js"></script>
+<section id="about">
+  <div class="about">
+    <h2>hey there, nice to meet you!</h2>
+    <p id="about-description">i'm sarah - a creative developer who enjoys bringing beautiful designs to life on the web.
+      in addition to code, my loves include my husband, our kids, strong coffee, summertime and <a href="http://realfoodandicecream.com" target="_blank">ice cream</a>.</p>
+    <p id="about-description">i look forward to making your upcoming project a reality, but until then, keep browsing to see some of my recent work.</p>
+  </div>
+</section>
+<section id="work">
+  <div class="work">
+    <h2 id="work-header">recent projects</h2>
+    <div class="work-item" id="work-1">
+      <div class="work-image">
+        <a href="https://cdn.rawgit.com/skiddhubbard/roast-coffee-house/master/index.html" target="_blank">
+        <img src="assets/img/roast-mockup-square.jpg" id="work-image"/></a>
+      </div>
+      <div class="work-text">
+        <h3>roast coffee</h3>
+        <p>a responsive site designed and developed for a coffee shop</p>
+        <a href="https://cdn.rawgit.com/skiddhubbard/roast-coffee-house/master/index.html" target="_blank">
+        <p class="work-link">view the site  <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+      </div>
+    </div>
+    <div class="work-item" id="work-2">
+      <div class="work-image">
+        <a href="https://cdn.rawgit.com/skiddhubbard/unplugged/master/index.html" target="_blank">
+        <img src="assets/img/unplugged-mockup-square.jpg" id="work-image"/></a>
+      </div>
+      <div class="work-text">
+        <h3>unplugged</h3>
+        <p>a music news &amp; and reviews site converted from photoshop to web</p>
+        <a href="https://cdn.rawgit.com/skiddhubbard/unplugged/master/index.html" target="_blank">
+        <p class="work-link">view the site  <i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <div class="services">
+    <h2 id="services-header">services</h2>
+    <div class="service">
+      <img class="service-img" src="assets/img/responsive.png"/>
+      <div class="service-text">
+        <h3>responsive development</h3>
+        <p>have design ready to go live on the web? i'll translate it into a pixel perfect match.</p>
+      </div>
+    </div>
+    <div class="service">
+      <img class="service-img" src="assets/img/wordpress.png"/>
+      <div class="service-text">
+        <h3>wordpress development</h3>
+        <p>want a site that you can add content to? wordpress makes it simple! i can convert your existing site or build a new one.</p>
+      </div>
+    </div>
+    <div class="service">
+      <img class="service-img" src="assets/img/design.png">
+      <div class="service-text">
+        <h3>web<br>design</h3>
+        <p>need a little help with your page layout? let's work together and create a site both you and your users love.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <h3 id="contact-header">ready to get started on your project?</h3>
+  <form action="https://formspree.io/sarahjkidd@gmail.com" method="post">
+    <input id="name" type="text" name="name" placeholder="name">
+    <input id="email" type="email" name="email" placeholder="email address"><br>
+    <textarea id="message" type="text" name="message" rows="3" placeholder="a little info about your project"></textarea><br>
+    <div id="button"><input id="submit" type="submit" value="let's create!"></div>
+  </form>
+</section>
+
+<script>
+function openNav() {
+    document.getElementById("nav").style.height = "100%";
+}
+function closeNav() {
+    document.getElementById("nav").style.height = "0%";
+}
+</script>
