@@ -577,6 +577,10 @@ footer {
     font-size: 2.3em;
   }
 
+  .frontpage {
+    max-width: 1000px;
+  }
+
   .menu span {
     display: inline;
     margin-right: 5px;
@@ -655,25 +659,6 @@ footer {
 
   .social li {
     font-size: 1.3em;
-  }
-}
-
-@media only screen and (device-width: 768px) {
-
-  .frontpage {
-    background-attachment: fixed;
-    background-image: url(../assets/img/sarah-photo-mobile.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1024px;
-    overflow: hidden;
-  }
-
-  body {
-      height:100%;
-      overflow: scroll;
-      -webkit-overflow-scrolling: touch;
   }
 }
 
