@@ -678,6 +678,11 @@ input {
 
   /***About***/
 
+  #about {
+    margin: auto;
+    max-width: 1200px;
+  }
+
   .about {
     padding-top: 20px;
     width: 60%;
@@ -688,6 +693,11 @@ input {
   }
 
   /***Work***/
+
+  #work {
+    margin: auto;
+    max-width: 1200px;
+  }
 
   .work {
     margin: auto;
@@ -731,11 +741,12 @@ input {
   /***Services***/
 
   #services {
+    margin: auto;
+    max-width: 1200px;
     padding-bottom: 45px;
   }
 
   .services {
-    max-width: 1200px;
     width: 80%;
   }
 
