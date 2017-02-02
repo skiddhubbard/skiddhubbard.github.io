@@ -91,311 +91,286 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/***Custom Styles***/
 
-/***MOBILE STYLES***/
-
+/***Home***/
 
 body {
- margin: 0px;
+  margin: 0px;
 }
 
 h1 {
- font-family: 'Montserrat', sans-serif;
- font-size: 1em;
- font-weight: 500;
- text-transform: uppercase;
- color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0px;
+  text-align: center;
 }
 
 h2 {
- font-family: 'Montserrat', sans-serif;
- font-size: 0.8em;
- font-weight: 500;
- text-transform: uppercase;
- color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.9em;
+  font-weight: 400;
+  margin: 0px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 0px;
 }
 
 p {
- font-family: 'Playfair Display', serif;
- font-size: 1em;
- color: #333333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 a {
- text-decoration: none;
- color: #333333;
+  color: black;
+  margin: 0px;
+  text-decoration: none;
 }
 
-nav li {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9em;
-  font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-  color: #333333;
+.frontpage {
+  background-image: url(../img/sarah-photo-mobile.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
 }
-
-/***Header***/
 
 header {
- background-color: white;
- height: 80px;
- position: fixed;
- right: 0;
- left: 0;
- z-index: 999;
-}
-
-#logo {
-  display: none;
-}
-
-#logo-mobile {
-  width: 50px;
-  height: auto;
-  float: left;
-  padding: 15px 0px;
-  object-fit: scale-down;
-}
-
-nav {
+  margin: auto;
   overflow: auto;
-  width: 87%;
-  margin: auto;
+  padding-top: 20px;
+  width: 90%;
 }
 
-ul {
-  list-style: none;
-  width: 200px;
-  float: right;
-  padding: 30px 0px 0px 0px;
+header h3 {
+  line-height: 1;
   margin: 0px;
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  justify-content: space-between;
 }
 
-nav li {
+.name span {
+  font-size: 0.8em;
+}
+
+.name {
   float: left;
 }
 
-.hover-text {
+.menu {
+  float: right;
+}
+
+.overlay {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  height: 0%;
+  left: 0;
+  position: fixed;
+  overflow-y: hidden;
+  top: 0;
+  transition: 0.5s;
+  width: 100%;
+  z-index: 1;
+}
+
+.overlay-content {
+  margin-top: 0px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.overlay-content ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.overlay-content li {
+  padding: 5px 0px;
+}
+
+.overlay-content a {
+  color: white;
+  font-size: 1.5em;
+}
+
+.overlay .closebtn {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  right: 45px;
+  top: 20px;
+}
+
+.menu span {
   display: none;
 }
 
-/***Hero Image***/
-
-#computer-image {
-  width: 100%;
-  object-fit: scale-down;
-  padding: 120px 0px 0px;
-}
-
-#tagline {
-  padding: 40px 0px;
-  text-align: center;
-  width: 95%;
+.front-text {
+  color: white;
   margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
 }
 
-/***Work Page***/
+#heart {
+  animation-name: heartBeat;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  color: #e0004d;
+  font-size: 0.75em;
+}
+
+@keyframes heartBeat {
+  0% {transform: scale(1);}
+  25% {transform: scale(.97);}
+  35% {transform: scale(.9);}
+  45% {transform: scale(1.1);}
+  55% {transform: scale(.9);}
+  65% {transform: scale(1.03);}
+  75% {transform: scale(1);}
+}
+
+/***About***/
+
+#about {
+  overflow: auto;
+}
+
+.about {
+  margin: 40px auto 15px;
+  width: 90%;
+}
+
+.about h2 {
+  line-height: 1.2;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.about p {
+  margin: 0px;
+  text-align: center;
+}
+
+#about-description a {
+  text-decoration: underline;
+}
+
+/***Work***/
+
+#work {
+  overflow: auto;
+}
 
 .work {
- overflow: auto;
- background-color: #FBF5F4;
- margin: 0px;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+
+.work p {
+  margin: 15px 0px;
 }
 
 #work-header {
-  width: 60%;
-  text-align: center;
-  margin: 30px auto;
+  border-bottom: solid 4px black;
+  margin: 25px auto 40px;
+  padding: 5px;
+  width: 7.5em;
 }
 
-.work-image {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 80%;
-  padding-bottom: 80%;
-  opacity: .9;
-}
-
-#work-1 {
-  background-image: url('/assets/img/roast-thumbnail-2.jpg');
-  margin: 0px auto;
-}
-
-#work-2 {
-  background-image: url('/assets/img/unplugged-thumbnail-2.jpg');
-  margin: 7% auto 10%;
-}
-
-.main-work {
-  width: 90%;
+.work-item {
   margin: auto;
-  padding-top: 80px;
-}
-
-.main-work p {
-  text-align: center;
-}
-
-.main-work .col-1 {
-  border: none;
-  clear: left;
-}
-
-.section-work {
-  overflow: auto;
-  padding-bottom: 10%;
-  border-bottom: solid 1px #333333;
-  margin-bottom: 10%;
-}
-
-.title-work {
-  border: solid 4px #e6b4ac;
-  margin: 3% 0px 10%;
-}
-
-.title-work h1 {
-  width: 100%;
-  text-align: center;
-  margin: 10px auto 0px;
-}
-
-.title-work h2 {
-  width: 100%;
-  text-align: center;
-  margin: 0px auto 10px;
-}
-
-
-.work-description a {
-  text-decoration: underline;
-}
-
-.more-button {
-   width: 150px;
-   border: solid 4px #e6b4ac;
-   margin: 10% auto 3%;
-   text-align: center;
-   padding: 10px;
-}
-
-/***Detail Page***/
-
-.main-detail {
-  width: 90%;
-  margin: auto;
-  padding-top: 80px;
-}
-
-.title {
-  border: solid 4px #e6b4ac;
-  margin: 3% 0px 5%;
-}
-
-.title h1 {
-  width: 100%;
-  text-align: center;
-  margin: 10px auto 0px;
-}
-
-.title h2 {
-  width: 100%;
-  text-align: center;
-  margin: 0px auto 10px;
-}
-
-.larger {
-  width: 100%;
-  object-fit: cover;
-  margin: 3% 0px;
-}
-
-.main-detail p {
-  text-align: center;
-}
-
-.responsive {
-  width: 100%;
-  object-fit: scale-down;
-  margin: 3% 0px;
-}
-
-.site-button {
-  width: 178px;
-  border: solid 4px #e6b4ac;
-  margin: 3% auto 10%;
-  text-align: center;
-  padding: 10px;
-}
-
-.site-description a {
-  text-decoration: underline;
-}
-
-/***About Page***/
-
-.wrapper-about {
-  width: 100%;
-  overflow: auto;
-  background-color: #FBF5F4;
-}
-
-.main-about {
+  padding-bottom: 25px;
   width: 70%;
-  margin: 120px auto 40px;
 }
 
-.main-about a {
-  text-decoration: underline;
-}
-
-.sarah {
+#work-image {
   width: 100%;
-  object-fit: scale-down;
-  margin-top: 10%;
 }
 
-#about-image {
-  width: 100%;
-  object-fit: scale-down;
+.work-link {
+  font-weight: bold;
 }
 
-.about-text {
-  width: 85%;
-  font-size: 0.9em;
+/***Services***/
+
+#services {
+  background-color: #f6f6f6;
+  overflow: auto;
+}
+
+.service h3 {
+  margin-bottom: 0px;
+}
+
+.services {
   margin: auto;
+  width: 70%;
 }
 
-.about-text h1 {
+#services-header {
+  border-bottom: solid 4px black;
+  margin: 25px auto 40px;
+  padding: 5px;
+  width: 4em;
+}
+
+.service {
+  padding-bottom: 25px;
   text-align: center;
+}
+
+.service-img {
+  margin: auto;
+  width: 50%;
 }
 
 /***Contact***/
 
-#contact-link {
+#contact {
   clear: both;
+  padding-bottom: 25px;
+}
+
+.contact-text h1 {
+  margin: 5% auto 2px;
+  text-align: center;
+  width: 60%;
+}
+
+.contact-text h2 {
+  margin: 0px auto 5px;
+  text-align: center;
+  width: 60%;
 }
 
 #contact-header {
-  width: 60%;
+  margin: 35px auto 20px;
   text-align: center;
-  margin: 25px auto;
+  width: 70%;
 }
 
 form {
-  width: 70%;
-  padding-right: 7px;
   margin: auto;
+  padding-right: 7px;
+  width: 70%;
 }
 
 input, textarea {
@@ -404,14 +379,14 @@ input, textarea {
 }
 
 input {
-  font-family: 'Playfair Display', serif;
+  border: 1px solid #cfcfcf;
+  color: #999999;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
   font-style: italic;
-  color: #999999;
   line-height: 3em;
-  padding: 0px 0px 0px 5px;
-  border: 1px solid #cfcfcf;
   margin: 10px 0px;
+  padding: 0px 0px 0px 5px;
 }
 
 #name {
@@ -423,455 +398,364 @@ input {
 }
 
 #message {
-  width: 100%;
-  font-family: 'Playfair Display', serif;
+  border-color: #cfcfcf;
+  color: #999999;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
   font-style: italic;
-  color: #999999;
   line-height: 3em;
-  padding: 0px 0px 0px 5px;
-  border-color: #cfcfcf;
   margin: 10px 0px;
+  padding: 0px 0px 0px 5px;
+  width: 100%;
 }
 
 #submit {
-  width: 150px;
+  background-color: white;
+  border: solid 4px #E94C82;
+  color: #333333;
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   font-style: normal;
   font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-  color: #333333;
-  padding: 0px;
-  border: solid 4px #e6b4ac;
   margin: 10px auto;
-  background-color: white;
-  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  width: 155px;
 }
 
 #button {
-  width: 150px;
   margin: auto;
+  padding-left: 6px;
+  width: 155px;
 }
 
-#contact-link {
-  overflow: auto;
-  margin: 5% 0px;
-}
+/***LANDSCAPE STYLES***/
 
-.contact-text h1 {
- width: 60%;
- text-align: center;
- margin: 5% auto 2px;
-}
+@media only screen and (min-width: 550px) {
 
-.contact-text h2 {
- width: 60%;
- text-align: center;
- margin: 0px auto 5px;
-}
-
-.social ul {
- width: 116px;
- float: none;
- margin: 0px auto 10%;
- padding: 0px;
- overflow: auto;
-}
-
-.social li {
-  font-size: 14px;
-}
-
-.fa-github-alt {
- margin: 0px 20px 0px 0px;
-}
-
-.fa-instagram {
-  margin: 0px 0px 0px 20px;
-}
-
-/***Footer***/
-
-.footer {
- clear: both;
-}
-
-/***TABLET STYLES***/
-
-
-  @media (min-width: 768px) {
-
-    h1 {
-      font-size: 1.2em;
-    }
-
-    h2 {
-      font-size: 1em;
-    }
-
-    p {
-      font-size: 1.2em;
-    }
-
- /***Header***/
-
-    header {
-      height: 106px;
-    }
-
-    #logo {
-      display: block;
-      width: 150px;
-      padding: 30px 0px;
-      object-fit: scale-down;
-      float: left;
-    }
-
-    #logo-mobile {
-      display: none;
-    }
-
-    nav {
-      width: 80%;
-     }
-
-    nav ul {
-      width: 250px;
-      padding: 45px 0px 0px 0px;
-    }
-
-    li {
-      font-size: 20px;
-    }
-
-    header.smaller {
-      height: 80px;
-    }
-
-    #logo.smaller {
-      display: none;
-      -webkit-transition: ease 2s;
-      -moz-transition: ease 2s;
-      -ms-transition: ease 2s;
-      transition: ease 2s;
-    }
-
-    #logo-mobile.smaller {
-      display: block;
-      object-fit: scale-down;
-      -webkit-transition: ease 2s;
-      -moz-transition: ease 2s;
-      -ms-transition: ease 2s;
-      transition: ease 2s;
-    }
-
-    nav ul.smaller {
-      padding-top: 35px;
-    }
-
- /***Hero Image***/
-
-    #computer-image {
-      padding: 120px 0px 20pxx;
-    }
-
-    #tagline {
-      padding: 15px 0px 50px;
-    }
-
- /***Work Page***/
-
-    .main-work {
-      padding-top: 108px;
-    }
-
-    #work-header {
-      text-align: left;
-      margin: 7% 0px 5% 7%;
-    }
-
-    .work-image {
-      width: 40%;
-      padding-bottom: 40%;
-      float: left;
-    }
-
-    #work-1 {
-      margin: 0px 3% 7% 7%;
-    }
-
-    #work-2 {
-      margin: 0px 7% 7% 3%;
-    }
-
-/***Detail Page***/
-
-    .main-detail {
-      overflow: auto;
-    }
-
-    .main-detail p {
-      font-size: 1em;
-    }
-
-    .larger {
-      padding-top: 20px;
-    }
-
-/***About Page***/
-    .wrapper-about {
-      padding: 0px 0px 2% 0px;
-    }
-
-    .main-about {
-      width: 80%;
-      margin-top: 17%;
-      margin-bottom: 3%;
-      overflow: auto;
-    }
-
-    .main-about p {
-      font-size: 0.8em;
-    }
-
-    .main-about h1 {
-      font-size: 1em;
-    }
-
-    .main-about h2 {
-      font-size: 0.8em;
-    }
-
-    .main-about .col-1 {
-      width: 40%;
-      margin: 7% 0px 7% 5%;
-      padding-right: 5%;
-      float: left;
-      border: none;
-    }
-
-    .main-about .col-2 {
-      width: 40%;
-      margin: 7% 5% 7% 5%;
-      float: left;
-    }
-
-    .sarah {
-      width: 100%;
-      object-fit: cover;
-      margin-top: 0px;
-    }
-
-/***Contact***/
-
-    #contact-header {
-      margin: 0px auto 25px;
-    }
-
-    .social ul {
-      width: 129px;
-    }
-
-    .social li {
-      font-size: 16px;
-    }
+  h1 {
+    font-size: 5em;
   }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  header {
+    margin: auto;
+    padding-top: 15px;
+    width: 95%;
+  }
+
+  header h3 {
+    font-size: 1.7em;
+  }
+
+  .frontpage {
+    background-image: url(../img/sarah-photo.jpg);
+    background-position: top center;
+  }
+
+  /***About***/
+
+  .about {
+    width: 70%;
+  }
+
+  #about-description {
+    padding: 0px;
+  }
+
+  /***Work***/
+
+  .work {
+    padding-top: 1%;
+  }
+
+  .work h3 {
+    margin-top: 0px;
+  }
+
+  #work-header {
+    margin-bottom: 50px;
+  }
+
+  .work-item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    padding-bottom: 50px;
+    width: 80%;
+  }
+
+  .work-image {
+    width: 45%;
+  }
+
+  .work-text {
+    width: 45%;
+  }
+
+  .work-link {
+    padding-top: 15px;
+  }
+
+/***Services***/
+
+  .services {
+    overflow: auto;
+    padding-bottom: 35px;
+    width: 90%;
+  }
+
+  .service h3 {
+    font-size: 1.2em;
+  }
+
+  .service p {
+    font-size: 0.9em;
+  }
+
+  #services-header {
+    margin-bottom: 50px;
+  }
+
+  .service {
+    float: left;
+    padding: 0px 4%;
+    width: 25%;
+  }
+
+  .service-img {
+    width: 60%;
+  }
+}
+
+/**TABLET STYLES***/
+
+@media (min-width: 750px) {
+
+  /***Home***/
+
+  h1 {
+    font-size: 7em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  header h3 {
+    font-size: 2.3em;
+  }
+
+  .menu span {
+    display: inline;
+    margin-right: 5px;
+  }
+
+  #bars {
+    display: none;
+  }
+
+  .overlay-content a {
+    color: white;
+    font-size: 2.5em;
+  }
+
+  .overlay .closebtn {
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    right: 45px;
+    top: 20px;
+  }
+
+  /***About***/
+
+  .about {
+    width: 70%;
+  }
+
+  /***Work***/
+
+  .work {
+    padding-top: 25px;
+  }
+
+  #work-header {
+    padding-bottom: 10px;
+  }
+
+  .work-item {
+    padding-bottom: 50px;
+  }
+
+  .work-image {
+    width: 45%;
+  }
+
+  .work-text {
+    width: 45%;
+  }
+
+  /***Services***/
+
+  .service h3 {
+    font-size: 1.5em;
+  }
+
+  .service p {
+    font-size: 1em;
+  }
+
+  #services-header {
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .service-img {
+    width: 60%;
+  }
+
+  .service-text {
+    margin: auto;
+    width: 90%;
+  }
+}
 
 /***DESKTOP STYLES***/
 
-  @media (min-width: 950px) {
+@media (min-width: 1000px) {
 
-    h1 {
-      font-size: 1.2em;
-    }
+  /***Home***/
 
-    h2 {
-      font-size: 0.8em;
-    }
+  h1 {
+    font-size: 8em;
+  }
 
-    p {
-      font-size: 1.1em;
-    }
+  p {
+    font-size: 1.2em;
+  }
 
- /***Header***/
+  /***About***/
 
-    header {
-      height: 157px;
-    }
+  .about {
+    padding-top: 20px;
+    width: 60%;
+  }
 
-    #logo {
-      width: 250px;
-      padding: 40px 0px;
-    }
+  .about p {
+    margin: 25px 0px 0px;
+  }
 
-    nav ul {
-      width: 325px;
-      padding-top: 60px;
-    }
+  /***Work***/
 
-    nav li {
-      font-size: 20px;
-    }
+  .work {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0px 0px 45px;
+    width: 80%;
+  }
 
-    nav li.smaller {
-      font-size: 18px;
-    }
+  #work-header {
+    margin: 45px auto 70px;
+  }
 
-    nav ul.smaller {
-      padding-top: 30px;
-    }
+  .work-item {
+    display: block;
+    width: 50%;
+  }
 
- /***Hero Image***/
-
-    #computer-image {
-      padding: 175px 0px 5% 0px;
-    }
-
-    #tagline {
-      padding: 10px 0px;
-      font-size: 1.2em;
-    }
-
- /***Work Page***/
-
-    .work {
-      margin-top: 7%;
-    }
-
-    .main-work {
-      padding-top: 157px;
-    }
-
-    .main-work p {
-      font-size: 1.1em;
-    }
-
-    .title-work h1 {
-      font-size: 1em;
-    }
-
-    .title-work h2 {
-      font-size: 0.8em;
-    }
-
-    .section-work {
-      padding-bottom: 2%;
-      margin-bottom: 2%;
-    }
-
-    .work-description {
-      width: 100%;
-    }
-
-    .more-button {
-      font-size: 1em;
-    }
-
-/***Detail Page***/
-
-    .main-detail {
-      padding-top: 100px;
-    }
-
-    .main-detail p {
-      font-size: 1.1em;
-    }
-
-    .larger {
-      padding-top: 0px;
-    }
-
-    .col-1 {
-      width: 35%;
-      margin: 7% 0px 7% 8%;
-      padding-right: 7%;
-      float: left;
-      border-right: solid 1px #333333;
-    }
-
-    .col-2 {
-      width: 35%;
-      margin: 7% 8% 7% 6%;
-      float: left;
-    }
-
-    .title {
-      margin-top: 0px;
-    }
-
-    .title h1 {
-      font-size: 1em;
-    }
-
-    .title h2 {
-      font-size: 0.8em;
-    }
-
-    .larger {
-      margin-top: 0px;
-    }
-
-    .site-button {
-      font-size: 1em;
-    }
-
-
-/***About Page***/
-
-    .main-about p {
-      font-size: 1.1em;
-    }
-
-    .main-about h1 {
-      font-size: 1.2em;
-    }
-
-    .main-about h2 {
-      font-size: 1em;
-    }
-
-    .wrapper-about {
-      padding: 0px;
-    }
-
-    .main-about {
-      margin-top: 160px auto 0px;
-      width: 80%;
-    }
-
-
-/***Contact***/
-
-    #contact-header {
-      font-size: 1.2em;
-    }
-
-    #name {
-    width: 47%;
-    font-size: 1em;
+  #work-1 {
     float: left;
-    margin: 15px 0px;
-    }
+  }
 
-    #email {
+  #work-2 {
+    float: right;
+  }
+
+  .work-image {
+    margin: auto;
+    width: 80%;
+  }
+
+  .work-text {
+    margin: auto;
+    padding-top: 20px;
+    width: 80%;
+  }
+
+  .work-link {
+    font-size: 1.2em;
+  }
+
+  /***Services***/
+
+  #services {
+    padding-bottom: 45px;
+  }
+
+  .services {
+    max-width: 1200px;
+    width: 80%;
+  }
+
+  .service h3 {
+    font-size: 1.7em;
+  }
+
+  #services-header {
+    font-size: 2.3em;
+    margin: 45px auto 70px;
+  }
+
+  /***Contact***/
+
+  #contact {
+    margin: auto;
+    max-width: 1200px;
+  }
+
+  #contact-header {
+    margin: 65px auto 50px;
+  }
+
+  #name {
+    float: left;
+    font-size: 1em;
+    margin: 15px 0px;
     width: 47%;
+  }
+
+  #email {
+    float: right;
     font-size: 1em;
     margin: 15px -7px 15px 0px;
-    float: right;
-    }
+    width: 47%;
+  }
 
-    #message {
+  #message {
     clear: both;
     font-size: 1em;
     margin: 15px 0px 25px;
-    }
-
-    .social ul {
-      margin-top: -20px;
-    }
   }
+
+  #submit {
+    font-size: 1.2em;
+    width: 170px;
+  }
+}
 
   /***HOVER***/
 
