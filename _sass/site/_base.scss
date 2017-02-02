@@ -146,11 +146,10 @@ a {
 }
 
 header {
-  left: 50%;
+  margin: auto;
   overflow: auto;
-  position: absolute;
+  padding-top: 15px;
   top: 15px;
-  transform: translateX(-50%);
   width: 90%;
 }
 
@@ -461,7 +460,6 @@ input {
 
   header {
     margin: auto;
-    padding-top: 15px;
     width: 95%;
   }
 
