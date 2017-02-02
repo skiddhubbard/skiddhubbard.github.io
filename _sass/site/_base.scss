@@ -446,6 +446,10 @@ input {
   padding: 0px 10px;
 }
 
+#social-icon {
+  font-size: 1.5em;
+}
+
 /***LANDSCAPE STYLES***/
 
 @media only screen and (min-width: 550px) {
@@ -653,6 +657,13 @@ input {
   #contact {
     padding-bottom: 75px;
   }
+
+  /***Footer**/
+
+  #social-icon {
+    font-size: 1.7em;
+  }
+
 }
 
 /***DESKTOP STYLES***/
@@ -775,6 +786,12 @@ input {
   #submit {
     font-size: 1.2em;
     width: 170px;
+  }
+
+  /***Footer***/
+
+  #social-icon {
+    font-size: 2em;
   }
 }
 
