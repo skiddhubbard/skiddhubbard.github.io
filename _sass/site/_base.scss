@@ -482,9 +482,12 @@ footer {
     top: 10%;
   }
 
+  .overlay-content a {
+    font-size: 1.2em;
+  }
+
   .overlay .closebtn {
-    top: 40px;
-    right: 55px;
+    padding: 10px;
   }
 
   /***About***/
